@@ -40,7 +40,7 @@ gem 'cancancan' # 권한설정
 # 스택오버플로우를 참고하여 devise젬 메인테이너가 제공하는 임시 해결법을 적용했습니다.
 # https://stackoverflow.com/questions/65702896/latest-omniauth-facebook-gem-breaks-devise (feat: lucas)
 gem 'authority' # 권한설정
-gem 'devise', github: 'heartcombo/devise', branch: 'ca-omniauth-2'
+gem 'devise', github: 'heartcombo/devise'
 gem 'devise-jwt' # jwt 사용
 gem 'jwt'
 gem 'letter_opener', group: :development # 개발 모드에서 이메일을 보내지 않고 브라우저에서 미리보기하는 젬

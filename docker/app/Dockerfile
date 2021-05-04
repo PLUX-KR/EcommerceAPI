@@ -14,7 +14,6 @@ WORKDIR /app
 
 # host의 Gemfile, Gemfile.lock을 컨테이너에 복사
 ADD Gemfile Gemfile
-ADD Gemfile.lock Gemfile.lock
 
 
 # bundle install 실행

@@ -17,8 +17,11 @@ ADD Gemfile Gemfile
 
 
 # bundle install 실행
+RUN bundle install
+
 RUN gem update --system \
   && gem install bundler:1.17.3 \
+  && bundle install \
   && bundler update --bundler
 
 

@@ -30,8 +30,6 @@ jobs:
         uses: crazy-max/ghaction-docker-meta@v1
         with:
           images: pluxkr/ecommerce-api
-          tag-semver: |
-            {{version}}
 
       # Runs a set of commands using the runners shell
       - name: Set up Docker Buildx
